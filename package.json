@@ -1,6 +1,6 @@
 {
-  "name": "ts-queue",
-  "version": "1.0.0",
+  "name": "typescript-queue",
+  "version": "1.0.2",
   "description": "Full-featured TypeScript queue implementations with strong typing, iterators, async iterators, no dependencies, and robust testing. ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,9 +8,6 @@
     "test": "NODE_NO_WARNINGS=1 jest",
     "coverage": "NODE_NO_WARNINGS=1 jest --coverage && open coverage/index.html"
   },
-  "files": [
-    "./dist"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keshavsaharia/ts-queue.git"

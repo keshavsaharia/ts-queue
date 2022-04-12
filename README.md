@@ -1,6 +1,6 @@
 # TypeScript Queue
 
-`ts-queue` is a robust implementation of a [queue data structure](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) in NodeJS/TypeScript.
+`typescript-queue` is a robust implementation of a [queue data structure](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) in NodeJS/TypeScript.
 
 **Features:**
 
@@ -17,7 +17,7 @@
 A `Queue<T>` instance is a traditional queue that manages an underlying array of items conforming to the type `T`.
 
 ```typescript
-import { Queue } from 'ts-queue'
+import { Queue } from 'typescript-queue'
 
 const queue = new Queue<number>()
 queue.add(5)
@@ -67,7 +67,7 @@ A `PromiseQueue<T>` instance is a separate queue implementation for queueing `Pr
 that produce `Promise` objects.
 
 ```typescript
-import { PromiseQueue } from 'ts-queue'
+import { PromiseQueue } from 'typescript-queue'
 
 // Queue any function that produces a `Promise` object
 const makeRequest: Request = async (id: string): Promise<object> => {
